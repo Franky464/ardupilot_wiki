@@ -25,7 +25,7 @@ Setup before flying
    to Autotune to allow you to turn the auto tuning on/off with the a
    switch.\ |AutoTuneCh7Switch|
 #. Remove the camera gimbal or any other parts of the frame that could wobble in flight
-#. Select which combination of axis (roll, pitch, yaw) you wish to tune using the :ref:`AUTOTUNE_AXES <AUTOTUNE_AXES>` parameter
+#. Select which combination of axis (roll, pitch, yaw) you wish to tune using the :ref:`AUTOTUNE_AXES <AUTOTUNE_AXES>` parameter, the process will take 5 minutes per axis, if the full process is not completed nothing will be saved, so if you dont have 20 minutes of autonomy run autotune once for each axis.
 #. Set the autotune's aggressiveness using the :ref:`AUTOTUNE_AGGR <AUTOTUNE_AGGR>` parameter (0.1=agressive, 0.075=medium, 0.050=weak), normally start with the default 0.1.
 #. For large copters (with props at least 13inch or 33cm diameter) set the Rate Roll and Pitch filters to 10hz (in Copter-3.3 these are RATE_RLL_FILT_HZ and RATE_PIT_FILT_HZ, in Copter-3.4 they are :ref:`ATC_RAT_RLL_FILT <ATC_RAT_RLL_FILT>`, :ref:`ATC_RAT_PIT_FILT <ATC_RAT_PIT_FILT>`)
 #. It is recommended to enable :ref:`battery voltage scaling of PID gains <current-limiting-and-voltage-scaling>`
